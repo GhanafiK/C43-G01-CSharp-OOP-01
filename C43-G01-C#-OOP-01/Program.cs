@@ -308,6 +308,37 @@ namespace C43_G01_C__OOP_01
 
             #endregion
 
+            #region Q5
+
+            //bool flag1, flag2;
+            //Point p1;
+            //do
+            //{
+            //    Console.Write("Enter x1: ");
+            //    flag1 = int.TryParse(Console.ReadLine(), out p1.x);
+            //} while (!flag1);
+            //do
+            //{
+            //    Console.Write("Enter y1: ");
+            //    flag1 = int.TryParse(Console.ReadLine(), out p1.y);
+            //} while (!flag1);
+            //Point p2;
+            //do
+            //{
+            //    Console.Write("Enter x2: ");
+            //    flag1 = int.TryParse(Console.ReadLine(), out p2.x);
+            //} while (!flag1);
+            //do
+            //{
+            //    Console.Write("Enter y2: ");
+            //    flag1 = int.TryParse(Console.ReadLine(), out p2.y);
+            //} while (!flag1);
+
+            //double distance = Math.Sqrt(Math.Pow(p2.x - p1.x, 2) + Math.Pow(p2.y - p1.y, 2));
+            //Console.WriteLine($"Distance between {(p1.x,p1.y)} and {(p2.x,p2.y)} = {distance}");
+
+            #endregion
+
             #endregion
         }
     }

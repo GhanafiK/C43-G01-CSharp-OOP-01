@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace C43_G01_C__OOP_01
 {
-    internal struct Point
+    public struct Point
     {
         public int x;
         public int y;
