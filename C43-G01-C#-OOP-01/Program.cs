@@ -11,18 +11,18 @@ namespace C43_G01_C__OOP_01
     //}
 
     ///[Flags]
-    ///enum Permissions:byte
+    ///enum Permissions : byte
     ///{
-    ///    Delete=1,Excute=2,Read=4,Write=8
+    ///    Read = 1, Write = 2, Delete = 4, Excute = 8
     ///}
-    
+
     ///class Employee
     ///{
     ///    public string name;
     ///    public int age;
     ///    public Permissions permission;
     ///}
-    
+
     //enum WeekDays
     //{
     //    monday,tuesday,wednesday,thursday,friday,saturday,sunday
@@ -241,6 +241,42 @@ namespace C43_G01_C__OOP_01
             //{
             //    Console.Write($"Months in {S}: december , january , february");
             //}
+
+            #endregion
+
+            #region Q3
+
+            //Permissions per=Permissions.Write;
+            //Console.WriteLine($"permission now= {per}");
+            ////check if permission has read or not if doesn't have read add it
+            //if((per & Permissions.Read) == Permissions.Read)
+            //{
+            //    Console.WriteLine("Existed permission");
+            //}
+            //else
+            //{
+            //    per = per ^ Permissions.Read;
+            //}
+            //Console.WriteLine($"permission now= {per}");
+
+            ////check if permission has read or not if it have read remove it
+            //if ((per & Permissions.Read) == Permissions.Read)
+            //{
+            //    per = per ^ Permissions.Read;
+            //    Console.WriteLine("remove read permission");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("didn't find this permission");
+            //}
+            //Console.WriteLine($"permission now= {per}");
+
+            ////we can use OR | so if it not found permission it will add it else do nothing 
+            //per = per | Permissions.Write;
+            //Console.WriteLine($"permission now= {per}");
+            //per = per | Permissions.Excute;
+            //Console.WriteLine($"permission now= {per}");
+
 
             #endregion
 
