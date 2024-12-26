@@ -1,6 +1,14 @@
 ﻿using Common;
+using System.Threading.Channels;
 namespace C43_G01_C__OOP_01
 {
+    //enum Gender
+    //{
+    //    male,female
+    //}
+    //enum Days{
+    //    saturday=10,sunday,monday,tuesday,wendnesday,thrusday,friday
+    //}
     internal class Program
     {
         //public static void DoSomeCode()
@@ -78,7 +86,36 @@ namespace C43_G01_C__OOP_01
             //a.z = 5;
             #endregion
 
+            #region Enum
+            //Gender g = Gender.male;
+            //if (g == Gender.male)
+            //{
+            //    Console.WriteLine(";)");
+            //}
+            //else
+            //{
+            //    Console.WriteLine(":(");
+            //}
 
+            //Days day = (Days)12;// it will check if value of lable == 12 if  found it return lable else return the number u entered
+            //Console.WriteLine(day);
+            //Days d = (Days)100; // couldn;t found value of a day=100
+            //Console.WriteLine(d);
+
+            ////take value from user
+            //// first method
+            //Gender G1 =(Gender) Enum.Parse(typeof(Gender), Console.ReadLine());
+            //// it can cause Argument Exception if user entered any thing not in enum lables
+
+            //// second method using TryParse
+            //Enum.TryParse(typeof(Gender), Console.ReadLine(), out object Result);
+            //Gender G2 = (Gender)Result;
+            //// it is very bad because we made alot of casting and if user enter Male to be print we must go to gender then add 
+            //// Male and amke it's value equal to value of male and so on in cases like MAle,MaLe,...
+
+            //// Third method using generics Tryparse
+            //Enum.TryParse<Gender>(Console.ReadLine(), true, out Gender Result1);
+            #endregion
 
             #endregion
         }
