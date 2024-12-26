@@ -211,7 +211,20 @@ namespace C43_G01_C__OOP_01
 
             #endregion
 
+            #region Assignment
+
+            #region Q1
+
+            //// display all days 
+            //for(int i = 0; i < 7; i++)
+            //{
+            //    Console.WriteLine((WeekDays)i);
+            //}
+
+            #endregion
+
             
+            #endregion
         }
     }
 }
