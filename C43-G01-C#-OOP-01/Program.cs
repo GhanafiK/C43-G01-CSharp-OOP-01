@@ -32,7 +32,7 @@ namespace C43_G01_C__OOP_01
     ///{
     ///    Spring, Summer, Autumn, Winter
     ///}
-    ///
+    
 
     //enum Colors
     //{
@@ -225,17 +225,21 @@ namespace C43_G01_C__OOP_01
 
             #region Q2
 
-            //bool flag;
+            //bool flag,flag2;
             //Season S;
             //do
             //{
             //    Console.Write("Enter Season Name: ");
-            //    flag = Enum.TryParse<Season>(Console.ReadLine(), true, out S);
-            //} while (!flag);
+            //    string seison = Console.ReadLine();
+            //    flag = Enum.TryParse<Season>(seison, true, out S);
+            //    flag2 = int.TryParse(seison, out int number);
+            //} while (!flag||flag2);
 
-            //if (S == Season.Spring) {
+            //if (S == Season.Spring)
+            //{
             //    Console.Write($"Months in {S}: march , april , may");
-            //}else if (S == Season.Summer)
+            //}
+            //else if (S == Season.Summer)
             //{
             //    Console.Write($"Months in {S}: june , july , august");
             //}
