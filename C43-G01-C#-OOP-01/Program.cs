@@ -32,6 +32,12 @@ namespace C43_G01_C__OOP_01
     ///{
     ///    Spring, Summer, Autumn, Winter
     ///}
+    ///
+
+    //enum Colors
+    //{
+    //    Red,Green,Blue
+    //}
 
     internal class Program
     {
@@ -277,6 +283,24 @@ namespace C43_G01_C__OOP_01
             //per = per | Permissions.Excute;
             //Console.WriteLine($"permission now= {per}");
 
+
+            #endregion
+
+            #region Q4
+
+            //bool flag,flag2;
+            //Console.Write("Enter Color Name: ");
+            //string mycolor = Console.ReadLine();
+            //flag =Enum.TryParse<Colors>(mycolor, true, out Colors color);
+            //flag2 = int.TryParse(mycolor, out int number);
+            //if (flag && !flag2)
+            //{
+            //    Console.WriteLine($"{color} is a primary color");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Not Primary Color");
+            //}
 
             #endregion
 
