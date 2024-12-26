@@ -23,10 +23,15 @@ namespace C43_G01_C__OOP_01
     ///    public Permissions permission;
     ///}
     
-    enum WeekDays
-    {
-        monday,tuesday,wednesday,thursday,friday,saturday,sunday
-    }
+    //enum WeekDays
+    //{
+    //    monday,tuesday,wednesday,thursday,friday,saturday,sunday
+    //}
+
+    ///enum Season
+    ///{
+    ///    Spring, Summer, Autumn, Winter
+    ///}
 
     internal class Program
     {
@@ -204,11 +209,38 @@ namespace C43_G01_C__OOP_01
 
             #region Q1
 
-            // display all days 
-            for(int i = 0; i < 7; i++)
-            {
-                Console.WriteLine((WeekDays)i);
-            }
+            //// display all days 
+            //for(int i = 0; i < 7; i++)
+            //{
+            //    Console.WriteLine((WeekDays)i);
+            //}
+
+            #endregion
+
+            #region Q2
+
+            //bool flag;
+            //Season S;
+            //do
+            //{
+            //    Console.Write("Enter Season Name: ");
+            //    flag = Enum.TryParse<Season>(Console.ReadLine(), true, out S);
+            //} while (!flag);
+
+            //if (S == Season.Spring) {
+            //    Console.Write($"Months in {S}: march , april , may");
+            //}else if (S == Season.Summer)
+            //{
+            //    Console.Write($"Months in {S}: june , july , august");
+            //}
+            //else if (S == Season.Autumn)
+            //{
+            //    Console.Write($"Months in {S}: september , october , november");
+            //}
+            //else if (S == Season.Winter)
+            //{
+            //    Console.Write($"Months in {S}: december , january , february");
+            //}
 
             #endregion
 
