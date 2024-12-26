@@ -22,6 +22,8 @@ namespace C43_G01_C__OOP_01
     ///    public int age;
     ///    public Permissions permission;
     ///}
+   
+
     internal class Program
     {
         //public static void DoSomeCode()
@@ -160,6 +162,34 @@ namespace C43_G01_C__OOP_01
             //// if he has this permission it will do nothing
             //emp.permission = emp.permission | Permissions.Write;
             //Console.WriteLine(emp.permission);
+
+            #endregion
+
+            #region Struct
+
+            //// it defined parameter less construcor and initiate variables with it's default value
+
+            //Point p01 = new(); // call parameter less constructor
+            //Console.WriteLine(p01.x);//0 
+
+            //Point p02 = new Point(); // call parameter less constructor
+            //Console.WriteLine(p02.x+" "+p02.y);//0 for x and 0 for y
+
+            //Point p03 = new Point(5); // call parameterized constructor with one paramenter 
+            ////== Point p03 = new(5);
+            //Console.WriteLine(p03.x+" "+p03.y);//5 for x and 5 for y
+
+            //Point p04 = new Point(5,7); // call parameterized constructor with two paramenter 
+            ////== Point p03 = new(5);
+            //Console.WriteLine(p04.x+" "+p04.y);//5 for x and 7 for y
+
+            //Console.WriteLine(p01); //C43_G01_C__OOP_01.Point [namespace.struct name]
+            //Console.WriteLine(p01.ToString()); //C43_G01_C__OOP_01.Point [namespace.struct name]
+
+            //// we should change behaviour of ToString to print x,y
+            //// after change ToString() behaviour 
+            //Console.WriteLine(p01); //(0,0)
+            //Console.WriteLine(p01.ToString()); //(0,0)
 
             #endregion
 
