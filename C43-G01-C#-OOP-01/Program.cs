@@ -1,4 +1,5 @@
-﻿namespace C43_G01_C__OOP_01
+﻿using Common;
+namespace C43_G01_C__OOP_01
 {
     internal class Program
     {
@@ -69,6 +70,15 @@
             //}
 
             #endregion
+
+            #region Access Modifier
+            //TypeA a =new TypeA();
+            //a.x = 5; // error because it is private so it only be accessed inside it's class
+            //a.y = 5; // error because it is internal so it only be accessed inside it's project
+            //a.z = 5;
+            #endregion
+
+
 
             #endregion
         }
