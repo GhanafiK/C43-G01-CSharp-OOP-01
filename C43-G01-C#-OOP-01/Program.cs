@@ -9,6 +9,19 @@ namespace C43_G01_C__OOP_01
     //enum Days{
     //    saturday=10,sunday,monday,tuesday,wendnesday,thrusday,friday
     //}
+
+    ///[Flags]
+    ///enum Permissions:byte
+    ///{
+    ///    Delete=1,Excute=2,Read=4,Write=8
+    ///}
+    
+    ///class Employee
+    ///{
+    ///    public string name;
+    ///    public int age;
+    ///    public Permissions permission;
+    ///}
     internal class Program
     {
         //public static void DoSomeCode()
@@ -116,6 +129,40 @@ namespace C43_G01_C__OOP_01
             //// Third method using generics Tryparse
             //Enum.TryParse<Gender>(Console.ReadLine(), true, out Gender Result1);
             #endregion
+
+            #region Permissions
+
+            //Employee emp = new Employee();
+            //emp.name = "Gamal";
+            //emp.age = 23;
+            //emp.permission = (Permissions)1;
+            //Console.WriteLine(emp.permission);
+
+            //// add new permission to eemployee by ( XOR ^ ) 
+            //// XOR works as if employee not has this permission it will added it to him but if he already has this permission 
+            //// it will remove this permission from him
+            //emp.permission = emp.permission ^ Permissions.Read;
+            //Console.WriteLine(emp.permission);
+
+            //// Using ( and & ) to check if employee doesn't have this permission add it to hime if he already has this permission 
+            //// don't do any thing
+            //if ((emp.permission & Permissions.Read) == Permissions.Read)
+            //{
+            //    Console.WriteLine("Permission already Exist");
+            //}
+            //else
+            //{
+            //    emp.permission = emp.permission ^ Permissions.Read;
+            //}
+            //Console.WriteLine(emp.permission);
+
+            //// Using ( OR | ) it check if employee doesn't has this permission it will added this permission to hif
+            //// if he has this permission it will do nothing
+            //emp.permission = emp.permission | Permissions.Write;
+            //Console.WriteLine(emp.permission);
+
+            #endregion
+
 
             #endregion
         }
