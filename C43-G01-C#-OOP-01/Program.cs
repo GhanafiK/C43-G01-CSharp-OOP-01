@@ -223,7 +223,39 @@ namespace C43_G01_C__OOP_01
 
             #endregion
 
+            #region Q2
+
+            //bool flag,flag2;
+            //Season S;
+            //do
+            //{
+            //    Console.Write("Enter Season Name: ");
+            //    string seison = Console.ReadLine();
+            //    flag = Enum.TryParse<Season>(seison, true, out S);
+            //    flag2 = int.TryParse(seison, out int number);
+            //} while (!flag||flag2);
+
+            //if (S == Season.Spring)
+            //{
+            //    Console.Write($"Months in {S}: march , april , may");
+            //}
+            //else if (S == Season.Summer)
+            //{
+            //    Console.Write($"Months in {S}: june , july , august");
+            //}
+            //else if (S == Season.Autumn)
+            //{
+            //    Console.Write($"Months in {S}: september , october , november");
+            //}
+            //else if (S == Season.Winter)
+            //{
+            //    Console.Write($"Months in {S}: december , january , february");
+            //}
+
+            #endregion
+
             
+
             #endregion
         }
     }
